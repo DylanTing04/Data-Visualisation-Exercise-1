@@ -12,7 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="PowerIcon.png" alt="Power Logo" class="power-logo" />
         </a>
         <nav class="nav-menu">
-          <a href="index.html" class="nav-link ${currentPage === "index.html" ? "active" : ""}">Home</a>
+          <a href="index.html" class="nav-link ${currentPage === "index.html" ? "active" : ""}">Index</a>
+          <a href="home.html" class="nav-link ${currentPage === "home.html" ? "active" : ""}">Home</a>
           <a href="televisions.html" class="nav-link ${currentPage === "televisions.html" ? "active" : ""}">Televisions</a>
           <a href="about.html" class="nav-link ${currentPage === "about.html" ? "active" : ""}">About Us</a>
         </nav>
