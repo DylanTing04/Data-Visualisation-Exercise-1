@@ -1,4 +1,4 @@
-document.addEventListencer("DOMContentLoaded",() => {
+document.addEventListener("DOMContentLoaded",() => {
   const navContainer = document.GetElementByID("navbar-pl");
   if (!navContainer) return;
 
