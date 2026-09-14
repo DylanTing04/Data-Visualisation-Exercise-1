@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",() => {
-  const navContainer = document.GetElementByID("navbar-pl");
+  const navContainer = document.getElementByID("navbar-pl");
   if (!navContainer) return;
 
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
