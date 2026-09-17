@@ -3,37 +3,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Televisions - EnergyWatch AU</title>
+  <title>Television Energy Insights: Data Story</title>
   <link rel="stylesheet" href="Style.css" />
-  <script src="script.js" defer></script>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- Dynamic Navigation Injected by script.js -->
   <div id="navbar-pl"></div>
 
-  <!-- Page Content -->
-  <main class="container">
-    <div class="page-badge">Current Page: Televisions</div>
-    <h1>Television Energy Consumption</h1>
-    <p class="subtitle">Examining power usage based on display technology and screen dimensions.</p>
+  <main class="container tv-story">
+    <h1>Television Energy Insights: Data Story</h1>
+    <p class="intro-p">This section presents findings from the Australian Government's Television Energy Rating dataset. The aim is to help Australian consumers make informed decisions about technology, size, brand, and efficiency.</p>
 
-    <div class="content-box">
-      <h3>Star Rating & Power Usage</h3>
-      <p>A higher star rating indicates lower annual kilowatt-hour (kWh/yr) consumption, directly reducing electricity costs.</p>
-    </div>
+    <!-- Chart 1 -->
+    <section class="chart-section">
+      <h2>Chart 1: What TV technologies are most common?</h2>
+      <h3 class="chart-type">Pie Chart</h3>
+      <div class="chart-image-container">
+        <img src="chart1.png" alt="What TV technologies are most common?" class="chart-image" />
+      </div>
+      <p class="chart-caption">Most TVs in Australia are LCD (LED), while standard LCD and OLED technologies are far less common.</p>
+    </section>
 
-    <div class="content-box">
-      <h3>Data Visualisation Area</h3>
-      <p><em>[D3.js / Chart visualisations from KNIME exploration will be embedded here in upcoming tasks]</em></p>
-    </div>
+    <!-- Chart 2 -->
+    <section class="chart-section">
+      <h2>Chart 2: What screen sizes are most frequent?</h2>
+      <h3 class="chart-type">Bar Chart</h3>
+      <div class="chart-image-container">
+        <img src="chart2.png" alt="What screen sizes are most frequent?" class="chart-image" />
+      </div>
+      <p class="chart-caption">55-inch and 65-inch TVs are the most frequent in the Australian market, followed by 75-inch models.</p>
+    </section>
+
+    <!-- Chart 3 -->
+    <section class="chart-section">
+      <h2>Chart 3: Which brands dominate the market?</h2>
+      <h3 class="chart-type">Bar Chart</h3>
+      <div class="chart-image-container">
+        <img src="chart3.png" alt="Which brands dominate the market?" class="chart-image" />
+      </div>
+      <p class="chart-caption">Kogan, LG, Samsung Electronics, Samsung, and Hisense offer the largest number of TV models in Australia.</p>
+    </section>
+
+    <!-- Chart 4 -->
+    <section class="chart-section">
+      <h2>Chart 4: Which screen type uses the least power?</h2>
+      <h3 class="chart-type">Bar Chart</h3>
+      <div class="chart-image-container">
+        <img src="chart4.png" alt="Which screen type uses the least power?" class="chart-image" />
+      </div>
+      <p class="chart-caption">Standard LCD TVs consume the least power on average, while LCD (LED) and OLED use more energy due to higher brightness and screen features.</p>
+    </section>
+
+    <!-- Chart 5 -->
+    <section class="chart-section">
+      <h2>Chart 5: What is the relationship between screen size and power use?</h2>
+      <h3 class="chart-type">Scatter Plot</h3>
+      <div class="chart-image-container">
+        <img src="chart5.png" alt="What is the relationship between screen size and power use?" class="chart-image" />
+      </div>
+      <p class="chart-caption">Larger TVs consume significantly more power &mdash; there is a strong positive correlation between screen size and average mode power draw.</p>
+    </section>
+
+    <!-- Chart 6 -->
+    <section class="chart-section">
+      <h2>Chart 6: What is the relationship between star rating and screen size?</h2>
+      <h3 class="chart-type">Scatter Plot</h3>
+      <div class="chart-image-container">
+        <img src="chart6.png" alt="What is the relationship between star rating and screen size?" class="chart-image" />
+      </div>
+      <p class="chart-caption">Star ratings are evenly distributed across screen sizes, indicating that larger televisions can still achieve high energy efficiency ratings if designed well.</p>
+    </section>
+
+    <!-- Chart 7 -->
+    <section class="chart-section">
+      <h2>Chart 7: Are there differences in power consumption between brands?</h2>
+      <h3 class="chart-type">Bar Chart</h3>
+      <div class="chart-image-container">
+        <img src="chart7.png" alt="Are there differences in power consumption between brands?" class="chart-image" />
+      </div>
+      <p class="chart-caption">Yes, total energy demand varies substantially by brand based on screen sizes and display technologies offered across their lineup.</p>
+    </section>
+
+    <!-- Conclusion -->
+    <section class="conclusion-section">
+      <h2>Conclusion</h2>
+      <p class="chart-caption">When choosing a TV, balance size, brand, and efficiency. A 55-inch LED TV is common and energy-smart for most Australian households.</p>
+    </section>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Dylan Ting. COS30045 Data Visualisation.</p>
-    <p><small>GenAI Notice: HTML structure, CSS, and copy created with AI assistance.</small></p>
+    <p>&copy; 2026 Dylan Ting | GenAI Acknowledgement: Code assisted by GitHub Copilot.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

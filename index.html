@@ -3,37 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - EnergyWatch AU</title>
+  <title>Australian Domestic Energy Watch</title>
   <link rel="stylesheet" href="Style.css" />
-  <script src="script.js" defer></script>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
- <div id="navbar-pl"></div>
+  <!-- Dynamic Navigation Injected by script.js -->
+  <div id="navbar-pl"></div>
 
-  <!-- Page Content -->
   <main class="container">
-    <div class="page-badge">Current Page: Home</div>
-    <h1>Australian Household Energy Insights</h1>
-    <p class="subtitle">Exploring how domestic appliances contribute to household power usage across Australia.</p>
+    <div class="hero-tag">National Energy Intelligence</div>
+    <h1 class="main-title">Australian Domestic Appliance Energy Watch</h1>
+    <p class="subtitle">Exploring residential electricity benchmarks, energy label metrics, and practical ways Australian households can minimize operating costs.</p>
 
-    <div class="content-box">
-      <h3>Energy Rating Label (ERL)</h3>
-      <p>The Energy Rating Label helps consumers compare energy efficiency and running costs across Australian appliances.</p>
-    </div>
+    <div class="cards-grid">
+      <article class="card">
+        <div class="card-icon-tag">Labeling</div>
+        <h2>Energy Rating Framework</h2>
+        <p>Managed under the Greenhouse and Energy Minimum Standards (GEMS) Act, star ratings benchmark efficiency so consumers can accurately evaluate lifetime running costs before purchasing.</p>
+      </article>
 
-    <div class="content-box">
-      <h3>Peak Electricity Demand</h3>
-      <p>Residential energy use peaks between 4:00 PM and 9:00 PM, heavily driven by household entertainment and cooling devices.</p>
+      <article class="card">
+        <div class="card-icon-tag">Tariffs</div>
+        <h2>Electricity Tariffs & Costs</h2>
+        <p>With Australian grid tariffs averaging between 28¢ and 36¢ per kWh, running an inefficient primary appliance can add upwards of $150 to $300 to an annual power bill.</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon-tag">Profiles</div>
+        <h2>Major Household Loads</h2>
+        <p>Entertainment displays, refrigeration units, and climate appliances make up over 40% of home power usage, representing the largest opportunity for energy savings.</p>
+      </article>
     </div>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Dylan Ting. COS30045 Data Visualisation.</p>
-    <p><small>GenAI Notice: HTML structure, CSS, and copy created with AI assistance.</small></p>
+    <p>&copy; 2026 Dylan Ting | GenAI Acknowledgement: Code assisted by GitHub Copilot and Gemini.</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
