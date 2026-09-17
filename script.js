@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
         </a>
         <nav class="nav-menu">
           <a href="index.html" class="nav-link ${currentPage === "index.html" ? "active" : ""}">Home</a> 
-          <a href="televisions.html" class="nav-link ${currentPage === "televisions.html" ? "active" : ""}">Televisions</a>
-          <a href="about.html" class="nav-link ${currentPage === "about.html" ? "active" : ""}">About Us</a>
+          <a href="Televisions.html" class="nav-link ${currentPage === "Televisions.html" ? "active" : ""}">Televisions</a>
+          <a href="About.html" class="nav-link ${currentPage === "About.html" ? "active" : ""}">About Us</a>
         </nav>
       </div>
     </header>
